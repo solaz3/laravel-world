@@ -25,7 +25,7 @@ class WorldContinentsLocaleTableSeeder extends Seeder
                 'alias' => NULL,
                 'abbr' => '亚',
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             1 => 
             array (
@@ -35,7 +35,7 @@ class WorldContinentsLocaleTableSeeder extends Seeder
                 'alias' => NULL,
                 'abbr' => '欧',
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             2 => 
             array (
@@ -45,7 +45,7 @@ class WorldContinentsLocaleTableSeeder extends Seeder
                 'alias' => NULL,
                 'abbr' => '非',
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             3 => 
             array (
@@ -55,7 +55,7 @@ class WorldContinentsLocaleTableSeeder extends Seeder
                 'alias' => NULL,
                 'abbr' => '大洋',
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             4 => 
             array (
@@ -65,7 +65,7 @@ class WorldContinentsLocaleTableSeeder extends Seeder
                 'alias' => NULL,
                 'abbr' => '南极',
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             5 => 
             array (
@@ -75,7 +75,7 @@ class WorldContinentsLocaleTableSeeder extends Seeder
                 'alias' => NULL,
                 'abbr' => '北美',
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             6 => 
             array (
@@ -85,7 +85,7 @@ class WorldContinentsLocaleTableSeeder extends Seeder
                 'alias' => NULL,
                 'abbr' => '南美',
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             7 => 
             array (

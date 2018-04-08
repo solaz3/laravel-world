@@ -25,7 +25,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             1 => 
             array (
@@ -35,7 +35,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             2 => 
             array (
@@ -45,7 +45,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             3 => 
             array (
@@ -55,7 +55,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             4 => 
             array (
@@ -65,7 +65,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             5 => 
             array (
@@ -75,7 +75,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             6 => 
             array (
@@ -85,7 +85,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             7 => 
             array (
@@ -95,7 +95,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             8 => 
             array (
@@ -105,7 +105,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             9 => 
             array (
@@ -115,7 +115,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             10 => 
             array (
@@ -125,7 +125,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             11 => 
             array (
@@ -135,7 +135,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             12 => 
             array (
@@ -145,7 +145,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             13 => 
             array (
@@ -155,7 +155,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             14 => 
             array (
@@ -165,7 +165,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             15 => 
             array (
@@ -175,7 +175,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             16 => 
             array (
@@ -185,7 +185,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             17 => 
             array (
@@ -195,7 +195,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             18 => 
             array (
@@ -205,7 +205,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             19 => 
             array (
@@ -215,7 +215,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             20 => 
             array (
@@ -225,7 +225,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             21 => 
             array (
@@ -235,7 +235,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             22 => 
             array (
@@ -245,7 +245,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             23 => 
             array (
@@ -255,7 +255,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             24 => 
             array (
@@ -265,7 +265,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             25 => 
             array (
@@ -275,7 +275,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '京',
                 'alias' => NULL,
                 'full_name' => '北京市',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             26 => 
             array (
@@ -285,7 +285,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '渝',
                 'alias' => NULL,
                 'full_name' => '重庆市',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             27 => 
             array (
@@ -295,7 +295,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '闽',
                 'alias' => NULL,
                 'full_name' => '福建省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             28 => 
             array (
@@ -305,7 +305,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '甘',
                 'alias' => '陇',
                 'full_name' => '甘肃省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             29 => 
             array (
@@ -315,7 +315,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '粤',
                 'alias' => NULL,
                 'full_name' => '广东省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             30 => 
             array (
@@ -325,7 +325,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '桂',
                 'alias' => NULL,
                 'full_name' => '广西壮族自治区',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             31 => 
             array (
@@ -335,7 +335,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '贵',
                 'alias' => '黔',
                 'full_name' => '贵州市',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             32 => 
             array (
@@ -345,7 +345,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '琼',
                 'alias' => NULL,
                 'full_name' => '河南省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             33 => 
             array (
@@ -355,7 +355,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '冀',
                 'alias' => NULL,
                 'full_name' => '河北省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             34 => 
             array (
@@ -365,7 +365,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '黑',
                 'alias' => NULL,
                 'full_name' => '黑龙江省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             35 => 
             array (
@@ -375,7 +375,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '豫',
                 'alias' => NULL,
                 'full_name' => '河南省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             36 => 
             array (
@@ -385,7 +385,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '鄂',
                 'alias' => NULL,
                 'full_name' => '湖北省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             37 => 
             array (
@@ -395,7 +395,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '湘',
                 'alias' => NULL,
                 'full_name' => '湖南省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             38 => 
             array (
@@ -405,7 +405,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '蒙',
                 'alias' => NULL,
                 'full_name' => '内蒙古自治区',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             39 => 
             array (
@@ -415,7 +415,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '苏',
                 'alias' => NULL,
                 'full_name' => '江苏省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             40 => 
             array (
@@ -425,7 +425,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '赣',
                 'alias' => NULL,
                 'full_name' => '江西省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             41 => 
             array (
@@ -435,7 +435,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '吉',
                 'alias' => NULL,
                 'full_name' => '吉林省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             42 => 
             array (
@@ -445,7 +445,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '辽',
                 'alias' => NULL,
                 'full_name' => '辽宁省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             43 => 
             array (
@@ -455,7 +455,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '宁',
                 'alias' => NULL,
                 'full_name' => '宁夏回族自治区',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             44 => 
             array (
@@ -465,7 +465,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '青',
                 'alias' => NULL,
                 'full_name' => '青海省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             45 => 
             array (
@@ -475,7 +475,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '陕',
                 'alias' => '秦',
                 'full_name' => '陕西省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             46 => 
             array (
@@ -485,7 +485,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '鲁',
                 'alias' => NULL,
                 'full_name' => '山东省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             47 => 
             array (
@@ -495,7 +495,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '沪',
                 'alias' => NULL,
                 'full_name' => '上海市',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             48 => 
             array (
@@ -505,7 +505,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '晋',
                 'alias' => NULL,
                 'full_name' => '山西省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             49 => 
             array (
@@ -515,7 +515,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '川',
                 'alias' => NULL,
                 'full_name' => '四川省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             50 => 
             array (
@@ -525,7 +525,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '台',
                 'alias' => NULL,
                 'full_name' => '台湾省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             51 => 
             array (
@@ -535,7 +535,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '津',
                 'alias' => NULL,
                 'full_name' => '天津市',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             52 => 
             array (
@@ -545,7 +545,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '藏',
                 'alias' => NULL,
                 'full_name' => '西藏自治区',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             53 => 
             array (
@@ -555,7 +555,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '新',
                 'alias' => NULL,
                 'full_name' => '新疆维吾尔自治区',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             54 => 
             array (
@@ -565,7 +565,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '云',
                 'alias' => '滇',
                 'full_name' => '云南省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             55 => 
             array (
@@ -575,7 +575,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '浙',
                 'alias' => NULL,
                 'full_name' => '浙江省',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             56 => 
             array (
@@ -585,7 +585,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             57 => 
             array (
@@ -595,7 +595,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             58 => 
             array (
@@ -605,7 +605,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             59 => 
             array (
@@ -615,7 +615,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             60 => 
             array (
@@ -625,7 +625,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             61 => 
             array (
@@ -635,7 +635,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             62 => 
             array (
@@ -645,7 +645,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             63 => 
             array (
@@ -655,7 +655,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             64 => 
             array (
@@ -665,7 +665,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             65 => 
             array (
@@ -675,7 +675,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             66 => 
             array (
@@ -685,7 +685,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             67 => 
             array (
@@ -695,7 +695,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             68 => 
             array (
@@ -705,7 +705,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             69 => 
             array (
@@ -715,7 +715,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             70 => 
             array (
@@ -725,7 +725,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             71 => 
             array (
@@ -735,7 +735,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             72 => 
             array (
@@ -745,7 +745,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             73 => 
             array (
@@ -755,7 +755,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             74 => 
             array (
@@ -765,7 +765,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             75 => 
             array (
@@ -775,7 +775,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             76 => 
             array (
@@ -785,7 +785,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             77 => 
             array (
@@ -795,7 +795,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             78 => 
             array (
@@ -805,7 +805,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             79 => 
             array (
@@ -815,7 +815,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             80 => 
             array (
@@ -825,7 +825,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             81 => 
             array (
@@ -835,7 +835,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             82 => 
             array (
@@ -845,7 +845,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             83 => 
             array (
@@ -855,7 +855,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             84 => 
             array (
@@ -865,7 +865,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             85 => 
             array (
@@ -875,7 +875,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             86 => 
             array (
@@ -885,7 +885,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             87 => 
             array (
@@ -895,7 +895,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             88 => 
             array (
@@ -905,7 +905,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             89 => 
             array (
@@ -915,7 +915,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             90 => 
             array (
@@ -925,7 +925,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             91 => 
             array (
@@ -935,7 +935,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             92 => 
             array (
@@ -945,7 +945,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             93 => 
             array (
@@ -955,7 +955,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             94 => 
             array (
@@ -965,7 +965,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             95 => 
             array (
@@ -975,7 +975,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             96 => 
             array (
@@ -985,7 +985,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             97 => 
             array (
@@ -995,7 +995,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             98 => 
             array (
@@ -1005,7 +1005,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             99 => 
             array (
@@ -1015,7 +1015,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             100 => 
             array (
@@ -1025,7 +1025,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             101 => 
             array (
@@ -1035,7 +1035,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             102 => 
             array (
@@ -1045,7 +1045,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             103 => 
             array (
@@ -1055,7 +1055,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             104 => 
             array (
@@ -1065,7 +1065,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             105 => 
             array (
@@ -1075,7 +1075,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             106 => 
             array (
@@ -1085,7 +1085,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             107 => 
             array (
@@ -1095,7 +1095,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             108 => 
             array (
@@ -1105,7 +1105,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             109 => 
             array (
@@ -1115,7 +1115,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             110 => 
             array (
@@ -1125,7 +1125,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             111 => 
             array (
@@ -1135,7 +1135,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             112 => 
             array (
@@ -1145,7 +1145,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             113 => 
             array (
@@ -1155,7 +1155,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             114 => 
             array (
@@ -1165,7 +1165,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             115 => 
             array (
@@ -1175,7 +1175,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             116 => 
             array (
@@ -1185,7 +1185,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             117 => 
             array (
@@ -1195,7 +1195,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             118 => 
             array (
@@ -1205,7 +1205,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'alias' => NULL,
                 'full_name' => NULL,
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             119 => 
             array (
@@ -1215,7 +1215,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '港',
                 'alias' => NULL,
                 'full_name' => '香港特别行政区',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             120 => 
             array (
@@ -1225,7 +1225,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'abbr' => '澳',
                 'alias' => NULL,
                 'full_name' => '澳门特别行政区',
-                'locale' => 'zh-cn',
+                'locale' => 'zh',
             ),
             121 => 
             array (
