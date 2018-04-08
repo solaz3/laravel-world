@@ -3,7 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class AddForeignKeysToWorldDivisionsTable extends Migration {
+class AddForeignKeysToWorldDivisionsTable extends Migration
+{
 
 	/**
 	 * Run the migrations.
@@ -12,8 +13,7 @@ class AddForeignKeysToWorldDivisionsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('world_divisions', function(Blueprint $table)
-		{
+		Schema::table('world_divisions', function (Blueprint $table) {
 			$table->foreign('country_id', 'world_divisions_ibfk_1')->references('id')->on('world_countries')->onUpdate('RESTRICT')->onDelete('CASCADE');
 		});
 	}
@@ -26,8 +26,7 @@ class AddForeignKeysToWorldDivisionsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('world_divisions', function(Blueprint $table)
-		{
+		Schema::table('world_divisions', function (Blueprint $table) {
 			$table->dropForeign('world_divisions_ibfk_1');
 		});
 	}

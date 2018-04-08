@@ -12,8 +12,6 @@ class WorldCitiesTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('world_cities')->truncate();
         
         \DB::table('world_cities')->insert(array (
@@ -33845,7 +33843,5 @@ class WorldCitiesTableSeeder extends Seeder
                 'code' => 'yor',
             ),
         ));
-        
-        
     }
 }

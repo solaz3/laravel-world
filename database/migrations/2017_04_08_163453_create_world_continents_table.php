@@ -3,7 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateWorldContinentsTable extends Migration {
+class CreateWorldContinentsTable extends Migration
+{
 
 	/**
 	 * Run the migrations.
@@ -12,8 +13,7 @@ class CreateWorldContinentsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('world_continents', function(Blueprint $table)
-		{
+		Schema::create('world_continents', function (Blueprint $table) {
 			$table->increments('id')->comment('Auto increase ID');
 			$table->string('name', 16)->default('')->index('uniq_continent')->comment('Continent Name');
 			$table->string('code', 2)->default('')->comment('Continent Code');

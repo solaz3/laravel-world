@@ -2,6 +2,12 @@
 
 This package focused on World Countries, Regions, and Cities database with locale support for Laravel.
 
+## Note
+
+The source package seems not maintain for a long time, so I've forked it and changed a little to fix some issues:
+- migration issues within utf8mb4
+- changed locale zh-cn to zh to fit the standard locale defination in laravel
+- add auto package discovery for laravel >= 5.5
 
 ## Conceptions
 
@@ -39,7 +45,7 @@ Example:
 ```php
 use Khsing\World\World;
 $china = World::getByCode('cn');
-$china->setLocale('zh-cn');
+$china->setLocale('zh');
 $china->name; // China
 $china->local_name; // 中国
 $china->full_name; // People's Republic of China
@@ -64,20 +70,21 @@ Right now, only English(default and fallback) and Chinese-Simp `zh-cn` are suppo
 - `composer require`
 
 ```php
-composer require khsing/world
+composer require coldcoder/world
 ```
+### For Laravel < 5.5
 
 - Add Service Provider into `config/app.php`
 
 ```php
 'providers' => [
     // ...
-    Khsing\World\WorldServiceProvider::class,
+    Coldcoder\World\WorldServiceProvider::class,
 ]
 ```
 - Publish and init
 ```php
-php artisan vendor:publish --force --provider="Khsing\World\WorldServiceProvider"
+php artisan vendor:publish --force --provider="Coldcoder\World\WorldServiceProvider"
 composer dump-autoload
 php artisan world:init
 ```
@@ -86,26 +93,26 @@ php artisan world:init
 
 - get all Continent
 ```php
-use Khsing\World\World;
+use Coldcoder\World\World;
 
 World::Continents()
 
 ```
 - get all Countries
 ```php
-use Khsing\World\World;
+use Coldcoder\World\World;
 
 World::Countries()
 ```
 - get country by code
 ```php
-use Khsing\World\World;
+use Coldcoder\World\World;
 
 Country::getByCode('cn');
 ```
 - get countries belong to a continent
 ```php
-use Khsing\World\Models\Continent;
+use Coldcoder\World\Models\Continent;
 
 $asia = Continent::getByCode('AS');
 $countries = $asia->countries()->get();

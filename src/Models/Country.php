@@ -1,8 +1,9 @@
 <?php
-namespace Khsing\World\Models;
+
+namespace Coldcoder\World\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Khsing\World\WorldTrait;
+use Coldcoder\World\WorldTrait;
 
 /**
  * Country
@@ -10,6 +11,7 @@ use Khsing\World\WorldTrait;
 class Country extends Model
 {
     use WorldTrait;
+
     /**
      * The database table used by the model.
      *
@@ -31,7 +33,7 @@ class Country extends Model
      *
      * @var array
      */
-    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr', 'local_currency_name'];
+    protected $appends = ['local_name', 'local_full_name', 'local_alias', 'local_abbr', 'local_currency_name'];
 
     public function divisions()
     {
@@ -63,6 +65,7 @@ class Country extends Model
         if ($this->has_division == true) {
             return $this->divisions;
         }
+
         return $this->cities;
     }
 
@@ -91,9 +94,11 @@ class Country extends Model
         if ($this->locale == $this->defaultLocale) {
             return $this->currency_name;
         }
+
         $localized = $this->getLocalized();
-        if (!is_null($localized)){
-            return !is_null($localized->currency_name) ? $localized->currency_name: $this->currency_name;
+
+        if (!is_null($localized)) {
+            return !is_null($localized->currency_name) ? $localized->currency_name : $this->currency_name;
         } else {
             return $this->currency_name;
         }
@@ -107,6 +112,7 @@ class Country extends Model
     public static function getByName($name)
     {
         $localized = CountryLocale::where('name', $name)->first();
+
         if (is_null($localized)) {
             return $localized;
         } else {
@@ -122,7 +128,7 @@ class Country extends Model
      */
     public static function searchByName($name)
     {
-        return CountryLocale::where('name', 'like', "%".$name."%")
+        return CountryLocale::where('name', 'like', "%" . $name . "%")
             ->get()->map(function ($item) {
                 return $item->country;
             });

@@ -1,9 +1,9 @@
 <?php
 
-namespace Khsing\World\Models;
+namespace Coldcoder\World\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Khsing\World\WorldTrait;
+use Coldcoder\World\WorldTrait;
 
 /**
  * Continent
@@ -11,6 +11,7 @@ use Khsing\World\WorldTrait;
 class Continent extends Model
 {
     use WorldTrait;
+
     /**
      * The database table used by the model.
      *
@@ -23,8 +24,8 @@ class Continent extends Model
      *
      * @var array
      */
-    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
-    
+    protected $appends = ['local_name', 'local_full_name', 'local_alias', 'local_abbr'];
+
     /**
      * return Countries
      *
@@ -64,6 +65,7 @@ class Continent extends Model
     public static function getByName($name)
     {
         $localized = ContinentLocale::where('name', $name)->first();
+        
         if (is_null($localized)) {
             return $localized;
         } else {
@@ -79,7 +81,7 @@ class Continent extends Model
      */
     public static function searchByName($name)
     {
-        return ContinentLocale::where('name', 'like', "%".$name."%")
+        return ContinentLocale::where('name', 'like', "%" . $name . "%")
             ->get()->map(function ($item) {
                 return $item->Continent;
             });

@@ -3,7 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class AddForeignKeysToWorldContinentsLocaleTable extends Migration {
+class AddForeignKeysToWorldContinentsLocaleTable extends Migration
+{
 
 	/**
 	 * Run the migrations.
@@ -12,8 +13,7 @@ class AddForeignKeysToWorldContinentsLocaleTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('world_continents_locale', function(Blueprint $table)
-		{
+		Schema::table('world_continents_locale', function (Blueprint $table) {
 			$table->foreign('continent_id', 'world_continents_locale_ibfk_1')->references('id')->on('world_continents')->onUpdate('RESTRICT')->onDelete('CASCADE');
 		});
 	}
@@ -26,8 +26,7 @@ class AddForeignKeysToWorldContinentsLocaleTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('world_continents_locale', function(Blueprint $table)
-		{
+		Schema::table('world_continents_locale', function (Blueprint $table) {
 			$table->dropForeign('world_continents_locale_ibfk_1');
 		});
 	}

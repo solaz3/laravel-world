@@ -3,7 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateWorldCountriesTable extends Migration {
+class CreateWorldCountriesTable extends Migration
+{
 
 	/**
 	 * Run the migrations.
@@ -12,8 +13,7 @@ class CreateWorldCountriesTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('world_countries', function(Blueprint $table)
-		{
+		Schema::create('world_countries', function (Blueprint $table) {
 			$table->increments('id')->comment('Auto increase ID');
 			$table->integer('continent_id')->unsigned()->comment('Continent ID');
 			$table->string('name')->default('')->comment('Country Common Name');
@@ -27,7 +27,7 @@ class CreateWorldCountriesTable extends Migration {
 			$table->string('currency_name', 128)->nullable()->comment('iso_4217_name');
 			$table->string('tld', 8)->nullable()->comment('Top level domain');
 			$table->string('callingcode', 8)->nullable()->comment('Calling prefix');
-			$table->unique(['continent_id','name'], 'uniq_country');
+			$table->unique(['continent_id', 'name'], 'uniq_country');
 		});
 	}
 

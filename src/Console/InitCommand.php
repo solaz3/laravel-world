@@ -1,6 +1,6 @@
 <?php
 
-namespace Khsing\World\Console;
+namespace Coldcoder\World\Console;
 
 use Illuminate\Console\Command;
 
@@ -15,12 +15,14 @@ class InitCommand extends Command
      * @var string
      */
     protected $signature = 'world:init';
+
     /**
      * The console command description.
      *
      * @var string
      */
     protected $description = 'Initialize';
+    
     /**
      * Create a new command instance.
      *
@@ -41,7 +43,7 @@ class InitCommand extends Command
         $this->info('Execute migrate first, migrating...');
         $this->call('migrate');
         $this->info('Seeding datas');
-        $this->call('db:seed',["--class"=>"WorldTablesSeeder"]);
+        $this->call('db:seed', ["--class" => "WorldTablesSeeder"]);
         $this->info('Done!');
     }
 }

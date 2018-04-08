@@ -12,153 +12,149 @@ class WorldContinentsLocaleTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('world_continents_locale')->truncate();
-        
-        \DB::table('world_continents_locale')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('world_continents_locale')->insert(array(
+            0 =>
+                array(
                 'id' => 1,
                 'continent_id' => 1,
                 'name' => '亚洲',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => '亚',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'zh',
             ),
-            1 => 
-            array (
+            1 =>
+                array(
                 'id' => 2,
                 'continent_id' => 2,
                 'name' => '欧洲',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => '欧',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'zh',
             ),
-            2 => 
-            array (
+            2 =>
+                array(
                 'id' => 3,
                 'continent_id' => 3,
                 'name' => '非洲',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => '非',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'zh',
             ),
-            3 => 
-            array (
+            3 =>
+                array(
                 'id' => 4,
                 'continent_id' => 4,
                 'name' => '大洋洲',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => '大洋',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'zh',
             ),
-            4 => 
-            array (
+            4 =>
+                array(
                 'id' => 5,
                 'continent_id' => 5,
                 'name' => '南极洲',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => '南极',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'zh',
             ),
-            5 => 
-            array (
+            5 =>
+                array(
                 'id' => 6,
                 'continent_id' => 6,
                 'name' => '北美洲',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => '北美',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'zh',
             ),
-            6 => 
-            array (
+            6 =>
+                array(
                 'id' => 7,
                 'continent_id' => 7,
                 'name' => '南美洲',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => '南美',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'zh',
             ),
-            7 => 
-            array (
+            7 =>
+                array(
                 'id' => 8,
                 'continent_id' => 1,
                 'name' => 'Asia',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => 'as',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'en',
             ),
-            8 => 
-            array (
+            8 =>
+                array(
                 'id' => 9,
                 'continent_id' => 2,
                 'name' => 'Europe',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => 'eu',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'en',
             ),
-            9 => 
-            array (
+            9 =>
+                array(
                 'id' => 10,
                 'continent_id' => 3,
                 'name' => 'Africa',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => 'af',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'en',
             ),
-            10 => 
-            array (
+            10 =>
+                array(
                 'id' => 11,
                 'continent_id' => 4,
                 'name' => 'Oceania',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => 'oc',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'en',
             ),
-            11 => 
-            array (
+            11 =>
+                array(
                 'id' => 12,
                 'continent_id' => 5,
                 'name' => 'Antarctica',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => 'an',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'en',
             ),
-            12 => 
-            array (
+            12 =>
+                array(
                 'id' => 13,
                 'continent_id' => 6,
                 'name' => 'North America',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => 'na',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'en',
             ),
-            13 => 
-            array (
+            13 =>
+                array(
                 'id' => 14,
                 'continent_id' => 7,
                 'name' => 'South America',
-                'alias' => NULL,
+                'alias' => null,
                 'abbr' => 'sa',
-                'full_name' => NULL,
+                'full_name' => null,
                 'locale' => 'en',
             ),
         ));
-        
-        
     }
 }

@@ -1,5 +1,6 @@
 <?php
-namespace Khsing\World\Models;
+
+namespace Coldcoder\World\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

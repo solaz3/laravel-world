@@ -1,5 +1,6 @@
 <?php
-namespace Khsing\World;
+
+namespace Coldcoder\World;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -53,7 +54,7 @@ class WorldServiceProvider extends ServiceProvider
     private function registerCommands()
     {
         $this->commands([
-            \Khsing\World\Console\InitCommand::class,
+            \Coldcoder\World\Console\InitCommand::class,
         ]);
     }
 }

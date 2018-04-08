@@ -1,8 +1,8 @@
 <?php
 
-namespace Khsing\World;
+namespace Coldcoder\World;
 
-use Khsing\World\Exceptions\InvalidCodeException;
+use Coldcoder\World\Exceptions\InvalidCodeException;
 
 trait WorldTrait
 {
@@ -22,12 +22,13 @@ trait WorldTrait
 
     protected $supported_locales = [
         'en',
-        'zh-cn',
+        'zh',
     ];
 
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
+
         $this->setLocale(config('app.locale'));
     }
 
@@ -40,16 +41,20 @@ trait WorldTrait
     public function setLocale($locale)
     {
         $locale = str_replace('_', '-', strtolower($locale));
+
         if (starts_with($locale, 'en')) {
             $locale = 'en';
         }
+
         if (!in_array($locale, $this->supported_locales)) {
             $locale = 'en';
         }
+
         $this->locale = $locale;
+
         return $this;
     }
- 
+
     /**
      * get locale
      *
@@ -80,8 +85,10 @@ trait WorldTrait
         if ($this->locale == $this->defaultLocale) {
             return $this->name;
         }
+
         $localized = $this->getLocalized();
-        return !is_null($localized)? $localized->name: $this->name;
+
+        return !is_null($localized) ? $localized->name : $this->name;
     }
 
     /**
@@ -94,8 +101,10 @@ trait WorldTrait
         if ($this->locale == $this->defaultLocale) {
             return $this->full_name;
         }
+
         $localized = $this->getLocalized();
-        return !is_null($localized)? $localized->full_name: $this->full_name;
+
+        return !is_null($localized) ? $localized->full_name : $this->full_name;
     }
 
     /**
@@ -108,8 +117,10 @@ trait WorldTrait
         if ($this->locale == $this->defaultLocale) {
             return $this->name;
         }
+
         $localized = $this->getLocalized();
-        return !is_null($localized)? $localized->alias: $this->name;
+
+        return !is_null($localized) ? $localized->alias : $this->name;
     }
 
     /**
@@ -122,8 +133,10 @@ trait WorldTrait
         if ($this->locale == $this->defaultLocale) {
             return $this->name;
         }
+
         $localized = $this->getLocalized();
-        return !is_null($localized)? $localized->abbr: $this->name;
+
+        return !is_null($localized) ? $localized->abbr : $this->name;
     }
 
     /**
@@ -135,10 +148,13 @@ trait WorldTrait
     public static function getByCode($code)
     {
         $code = strtolower($code);
+
         $world = self::where('code', $code)->first();
+
         if (is_null($world)) {
             throw new InvalidCodeException("${code} does not exist");
         }
+        
         return $world;
     }
 }

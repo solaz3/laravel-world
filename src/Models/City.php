@@ -1,8 +1,9 @@
 <?php
-namespace Khsing\World\Models;
+
+namespace Coldcoder\World\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Khsing\World\WorldTrait;
+use Coldcoder\World\WorldTrait;
 
 /**
  * City
@@ -10,6 +11,7 @@ use Khsing\World\WorldTrait;
 class City extends Model
 {
     use WorldTrait;
+
     /**
      * The database table used by the model.
      *
@@ -22,16 +24,16 @@ class City extends Model
      *
      * @var array
      */
-    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
-    
+    protected $appends = ['local_name', 'local_full_name', 'local_alias', 'local_abbr'];
+
     public function country()
     {
         return $this->belongsTo(Country::class);
     }
-    
+
     public function division()
     {
-        return $this->belongsTo(division::class);
+        return $this->belongsTo(Division::class);
     }
 
     public function children()
@@ -62,6 +64,7 @@ class City extends Model
     public static function getByName($name)
     {
         $localed = CityLocale::where('name', $name)->first();
+        
         if (is_null($localed)) {
             return $localed;
         } else {
@@ -77,7 +80,7 @@ class City extends Model
      */
     public static function searchByName($name)
     {
-        return CityLocale::where('name', 'like', "%".$name."%")
+        return CityLocale::where('name', 'like', "%" . $name . "%")
             ->get()->map(function ($item) {
                 return $item->city;
             });

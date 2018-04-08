@@ -1,10 +1,10 @@
 <?php
 
-namespace Khsing\World;
+namespace Coldcoder\World;
 
-use Khsing\World\Models\Continent;
-use Khsing\World\Models\Country;
-use Khsing\World\Models\Division;
+use Coldcoder\World\Models\Continent;
+use Coldcoder\World\Models\Country;
+use Coldcoder\World\Models\Division;
 
 /**
  * World
@@ -34,23 +34,26 @@ class World
     public static function getByCode($code)
     {
         $code = strtolower($code);
+
         if (strpos($code, '-')) {
             list($country_code, $code) = explode('-', $code);
             $country = self::getCountryByCode($country_code);
         } else {
             return self::getCountryByCode($code);
         }
+
         if ($country->has_division) {
             return Division::where([
                 ['country_id', $country->id],
-                ['code', $code ],
+                ['code', $code],
             ])->first();
         } else {
             return City::where([
                 ['country_id', $country->id],
-                ['code', $code ],
+                ['code', $code],
             ]);
         }
-        throw new \Khsing\World\Exceptions\InvalidCodeException("Code is invalid");
+
+        throw new \Coldcoder\World\Exceptions\InvalidCodeException("Code is invalid");
     }
 }

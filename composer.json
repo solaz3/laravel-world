@@ -1,5 +1,5 @@
 {
-    "name": "khsing/world",
+    "name": "coldcoder/world",
     "description": "Provide countries, states, and cities relations database.",
     "keywords": [ "world", "country", "city", "region" ],
     "type": "library",
@@ -14,7 +14,7 @@
     },
     "autoload": {
     	"psr-4": {
-    		"Khsing\\World\\": "src/"
+    		"Coldcoder\\World\\": "src/"
     	}
     },
     "minimum-stability": "stable",
@@ -22,6 +22,10 @@
         {
             "name": "Guixing Bai",
             "email": "khsing.cn@gmail.com"
+        },
+        {
+            "name": "John Au",
+            "email": "solaze@gmail.com"
         }
     ]
 }
