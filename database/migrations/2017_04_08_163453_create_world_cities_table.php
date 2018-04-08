@@ -17,8 +17,8 @@ class CreateWorldCitiesTable extends Migration
             $table->increments('id')->comment('Auto increase ID');
             $table->integer('country_id')->unsigned()->comment('Country ID');
             $table->integer('division_id')->unsigned()->nullable()->index('division_id')->comment('Division ID');
-            $table->string('name', 255)->default('')->comment('City Name');
-            $table->string('full_name', 255)->nullable()->comment('City Fullname');
+            $table->string('name')->default('')->comment('City Name');
+            $table->string('full_name')->nullable()->comment('City Fullname');
             $table->string('code', 64)->nullable()->comment('City Code');
             $table->index(['country_id','division_id','name'], 'uniq_city');
         });
